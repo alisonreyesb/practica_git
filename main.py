@@ -1,6 +1,6 @@
 #importacion de archivos
 from fuctions import suma
-#programaS
+#programa
 resultados=suma(5,10)
 
 print(resultados)
