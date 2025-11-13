@@ -2,6 +2,7 @@
 from functions import suma
 from calculos import area_triangulo
 from calculos import area_cuadrado
+from calculos import area_circulo
 #programa
 print("Practicas git")
 
@@ -12,6 +13,7 @@ while True:
     print("2.Area del triangulo")
     print("3.Suma")
     print("4.Salir")
+    print("5.Area del circulo")
     #Se solicita la opcion al usuario
     eleccion = input("Ingrese la opcion: ")
     #si el ususario escoge la opcion 1 se realiza el area del cuadrado
@@ -37,6 +39,9 @@ while True:
     #Si el usuario escoge la opcion 4 se sale del programa
     elif eleccion == '4':
         print("Saliendo del programa.")
+    elif eleccion=='5':
+        radio = float(input("Ingrese el radio del circulo: "))
+        print("El area del circulo es:", area_circulo(radio))
         break
 
 

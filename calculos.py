@@ -6,3 +6,6 @@ def area_cuadrado(lado):
 def area_triangulo(base, altura):
     return base * altura/2
 #se observa la funcion incompleta ya que para calcular el area del triangulo se debe dividir entre 2
+def area_circulo(radio):
+    pi = 3.1416
+    return pi * (radio**2)
