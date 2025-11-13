@@ -4,7 +4,7 @@ from calculos import area_triangulo
 from calculos import area_cuadrado
 from calculos import area_circulo
 #programa
-print("Practicas git")
+print("Practicas git 13/11/2025")
 
 while True:
     #Creacion del menu y solicitud de operacion
